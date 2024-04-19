@@ -1,0 +1,131 @@
+#_____  ______  _____ _______ _____  _____ _____ _______ _____ ____  _   _
+#|  __ \|  ____|/ ____|__   __|  __ \|_   _/ ____|__   __|_   _/ __ \| \ | |
+#| |__) | |__  | (___    | |  | |__) | | || |       | |    | || |  | |  \| |
+#|  _  /|  __|  \___ \   | |  |  _  /  | || |       | |    | || |  | | . ` |
+#| | \ \| |____ ____) |  | |  | | \ \ _| || |____   | |   _| || |__| | |\  |
+#|_|  \_\______|_____/   |_|  |_|  \_\_____\_____|  |_|  |_____\____/|_| \_|
+#MCMMORESTRICTION ver: 9.0
+
+#level required
+diamond-level: 60
+netherite-level: 120
+iron-Level : 20
+copper-level: 40
+gold-Level : 15
+coal-Level : 5
+lapis-Level : 30
+redstone-level : 25
+quartz-level : 10
+
+events:
+
+  #Netherite
+  onPlayerInteractNetheriteItems: true
+
+  onBlockBreakNetherite: true
+
+  onPlayerPickupItemNetherite: true
+
+
+
+
+
+  #diamond
+  onBlockBreak: true
+
+  onPlayerPickupItem: true
+
+  onPlayerInteractItems: true
+
+
+
+
+
+  #iron
+  onBlockBreakIron: true
+
+  onPlayerInteractIronItems: true
+
+  onPlayerPickupIronItem: true
+
+
+
+
+
+  #Gold
+  onBlockBreakGold: true
+
+  onPlayerInteractGoldItems: true
+
+  onPlayerPickupGoldItem: true
+
+
+
+
+
+  #Coal
+  onBlockBreakCoal: true
+
+  onPlayerInteractCoalItems: true
+
+  onPlayerPickupCoalItem: true
+
+
+
+
+
+  #Lapis
+  onBlockBreakLapis: true
+
+  onPlayerInteractLapisItems: true
+
+  onPlayerPickupLapisItem: true
+
+
+
+
+
+  #Quartz
+  onBlockBreakQuartz: true
+
+  onPlayerInteractQuartzItems: true
+
+  onPlayerPickupQuartzItem: true
+
+
+
+
+
+  #Emerald
+  onBlockBreakEmerald: true
+
+  onPlayerInteractEmeraldItems: true
+
+  onPlayerPickupEmeraldItem: true
+
+
+
+
+
+  #Redstone
+  onBlockBreakRedstone: true
+
+  onPlayerInteractRedstoneItems: true
+
+  onPlayerPickupRedstoneItem: true
+
+
+
+
+  #Copper
+  onBlockBreakCopper: true
+
+  onPlayerInteractCopperItems: true
+
+  onPlayerPickupCopperItem: true
+
+
+
+
+  #Diamond to netherite
+  onSmithingTable: true

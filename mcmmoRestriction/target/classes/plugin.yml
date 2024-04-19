@@ -1,0 +1,6 @@
+name: mcmmoRestriction
+version: '10.0'
+main: org.mcmmorestriction.McmmoRestriction
+api-version: '1.20'
+author: ironPhil24k
+depend: [mcMMO]
